@@ -16,9 +16,9 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['62895604670507']
-global.ownernomer = "62895604670507"
-global.premium = ['62895604670507','6281328144300']
+global.owner = ['6283144700823']
+global.ownernomer = "6283144700823"
+global.premium = ['6283144700823','6282228289625']
 global.packname = 'Zenss'
 global.author = 'Cuyy'
 global.sessionName = 'zenss'
@@ -37,7 +37,7 @@ global.mess = {
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
-    premium: "Infinity",
+    premium: "25",
     free: 25
 }
 global.thumb = fs.readFileSync('./image/zens.jpg')
