@@ -31,7 +31,7 @@ const ownernya = ownernomer + '@s.whatsapp.net'
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat Malam 🌌'
+var ucapanWaktu = 'Selamat bengi 🌌'
  }
  if(time2 < "19:00:00"){
 var ucapanWaktu = 'Selamat Sore 🌃'
@@ -43,10 +43,10 @@ var ucapanWaktu = 'Selamat Sore 🌅'
 var ucapanWaktu = 'Selamat Siang 🏙'
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌄'
+var ucapanWaktu = 'Selamat isuk 🌄'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌉'
+var ucapanWaktu = 'Selamat isuk 🌉'
  } 
 
 // read database
@@ -3014,6 +3014,7 @@ goup = `┌──⭓ *Group Menu*
 │⭔ ${prefix}upvote
 │⭔ ${prefix}cekvote
 │⭔ ${prefix}hapusvote
+│⭔ ${prefix}awokawok
 │
 └───────𖦹Ꜥꜥ`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
