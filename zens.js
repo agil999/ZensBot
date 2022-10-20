@@ -2966,7 +2966,7 @@ break
                 {
                 title: "CHANGE MENU BOT",
                 rows: [
-                {title: "Group", rowId: `grup`, description: `👥Group Menu`},
+                {title: "Group", rowId: `infogrup`, description: `👥Group Menu`},
                 {title: "Webzone", rowId: `webzone`, description: `📹Webzone Menu`},
                 {title: "Downloader", rowId: `download`, description: `📥Downloader Menu`},
                 {title: "Search", rowId: `search`, description: `🔍Search Menu`},
@@ -2989,7 +2989,7 @@ break
                 zens.sendListMsg(m.chat, kukiw, nyoutube, `*Hello Kak ${pushname}*!`, `Pilih Menu`, sections, m, {quoted: fkontak})
             }
             break
-            case 'grup': {
+            case 'infogrup': {
 goup = `┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
@@ -3391,21 +3391,21 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
                 anu = `*${ucapanWaktu}*\n*kak @${me.split('@')[0]}*\n*Powered*  : @${ini_mark.split('@')[0]}\n*Creator* : @${ownernya.split('@')[0]}
 ┌──⭓ *Menu*
 │
-│⭔ Group Menu         = ${prefix}grup
-│⭔ Webzone              = ${prefix}webzone
+│⭔ Group Menu          = ${prefix}infogrup
+│⭔ Webzone               = ${prefix}webzone
 │⭔ Downloader Menu = ${prefix}download
-│⭔ Search Menu        = ${prefix}search
+│⭔ Search Menu         = ${prefix}search
 │⭔ Random Menu      = ${prefix}random
-│⭔ TextPro Menu     n = ${prefix}textpro
-│⭔ PhotoOxy Menu    = ${prefix}photo
+│⭔ TextPro Menu       = ${prefix}textpro
+│⭔ PhotoOxy Menu     = ${prefix}photo
 │⭔ EPhoto Menu        = ${prefix}ephoto
-│⭔ Fun Menu             = ${prefix}fun
-│⭔ Primbon Menu     = ${prefix}primbon
-│⭔ Convert Menu      = ${prefix}convert
-│⭔ Main Menu         = ${prefix}main
-│⭔ Anonymous Menu = ${prefix}anonymous
-│⭔ Islamic Menu       = ${prefix}islam
-│⭔ Voice Changer      = ${prefix}voice
+│⭔ Fun Menu              = ${prefix}fun
+│⭔ Primbon Menu      = ${prefix}primbon
+│⭔ Convert Menu       = ${prefix}convert
+│⭔ Main Menu           = ${prefix}main
+│⭔ Anonymous Menu= ${prefix}anonymous
+│⭔ Islamic Menu         = ${prefix}islam
+│⭔ Voice Changer       = ${prefix}voice
 │
 └───────𖦹Ꜥꜥ
 
