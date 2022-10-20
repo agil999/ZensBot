@@ -3391,7 +3391,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
                 anu = `*${ucapanWaktu}*\n*kak @${me.split('@')[0]}*\n*Powered*  : @${ini_mark.split('@')[0]}\n*Creator* : @${ownernya.split('@')[0]}
 ┌──⭓ *Menu*
 │
-│⭔ Group Menu         = ${prefix}group
+│⭔ Group Menu         = ${prefix}grup
 │⭔ Webzone              = ${prefix}webzone
 │⭔ Downloader Menu = ${prefix}download
 │⭔ Search Menu        = ${prefix}search
