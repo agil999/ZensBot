@@ -3391,21 +3391,21 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
                 anu = `*${ucapanWaktu}*\n*kak @${me.split('@')[0]}*\n*Powered*  : @${ini_mark.split('@')[0]}\n*Creator* : @${ownernya.split('@')[0]}
 ┌──⭓ *Menu*
 │
-│⭔ Group Menu      = ${prefix}group
-│⭔ Webzone         = ${prefix}webzone
+│⭔ Group Menu        = ${prefix}group
+│⭔ Webzone            = ${prefix}webzone
 │⭔ Downloader Menu = ${prefix}download
-│⭔ Search Menu     = ${prefix}search
-│⭔ Random Menu     = ${prefix}random
-│⭔ TextPro Menu    = ${prefix}textpro
-│⭔ PhotoOxy Menu   = ${prefix}photo
-│⭔ EPhoto Menu     = ${prefix}ephoto
-│⭔ Fun Menu        = ${prefix}fun
+│⭔ Search Menu      = ${prefix}search
+│⭔ Random Menu      = ${prefix}random
+│⭔ TextPro Menu      = ${prefix}textpro
+│⭔ PhotoOxy Menu    = ${prefix}photo
+│⭔ EPhoto Menu       = ${prefix}ephoto
+│⭔ Fun Menu           = ${prefix}fun
 │⭔ Primbon Menu    = ${prefix}primbon
-│⭔ Convert Menu    = ${prefix}convert
-│⭔ Main Menu       = ${prefix}main
+│⭔ Convert Menu     = ${prefix}convert
+│⭔ Main Menu         = ${prefix}main
 │⭔ Anonymous Menu  = ${prefix}anonymous
-│⭔ Islamic Menu    = ${prefix}islam
-│⭔ Voice Changer   = ${prefix}voice
+│⭔ Islamic Menu      = ${prefix}islam
+│⭔ Voice Changer     = ${prefix}voice
 │
 └───────𖦹Ꜥꜥ
 
