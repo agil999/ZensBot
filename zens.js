@@ -2966,30 +2966,30 @@ break
                 {
                 title: "CHANGE MENU BOT",
                 rows: [
-                {title: "Group", rowId: `mgroup`, description: `👥Group Menu`},
-                {title: "Webzone", rowId: `mwebzone`, description: `📹Webzone Menu`},
-                {title: "Downloader", rowId: `mdownloader`, description: `📥Downloader Menu`},
-                {title: "Search", rowId: `msearch`, description: `🔍Search Menu`},
-                {title: "Random", rowId: `mrandom`, description: `❔Random Menu`},
-                {title: "Text Pro", rowId: `mtextpro`, description: `❇Text Pro Menu`},
-                {title: "Photo Oxy", rowId: `mphotooxy`, description: `♻️Photo Oxy Menu`},
-                {title: "Ephoto", rowId: `mephoto`, description: `🗳Ephoto Menu`},
-                {title: "Fun", rowId: `mfun`, description: `🔫Fun Menu`},
-                {title: "Primbon", rowId: `mprimbon`, description: `😂Primbon Menu`},
-                {title: "Convert", rowId: `mconvert`, description: `🛠Convert Menu`},
-                {title: "Main", rowId: `mmain`, description: `💾Main Menu`},
-                {title: "Database", rowId: `mdatabase`, description: `📁Database Menu`},
-                {title: "Anonymous", rowId: `manonymous`, description: `🎭Anonymous Menu`},
-                {title: "Islamic", rowId: `mislamic`, description: `🕌Islamic Menu`},
-                {title: "Voice", rowId: `mvoice`, description: `🎶Voice Menu`},
-                {title: "Owner", rowId: `mowner`, description: `🎟Owner Menu`}
+                {title: "Group", rowId: `grup`, description: `👥Group Menu`},
+                {title: "Webzone", rowId: `webzone`, description: `📹Webzone Menu`},
+                {title: "Downloader", rowId: `download`, description: `📥Downloader Menu`},
+                {title: "Search", rowId: `search`, description: `🔍Search Menu`},
+                {title: "Random", rowId: `random`, description: `❔Random Menu`},
+                {title: "Text Pro", rowId: `textpro`, description: `❇Text Pro Menu`},
+                {title: "Photo Oxy", rowId: `photo`, description: `♻️Photo Oxy Menu`},
+                {title: "Ephoto", rowId: `ephoto`, description: `🗳Ephoto Menu`},
+                {title: "Fun", rowId: `fun`, description: `🔫Fun Menu`},
+                {title: "Primbon", rowId: `primbon`, description: `😂Primbon Menu`},
+                {title: "Convert", rowId: `convert`, description: `🛠Convert Menu`},
+                {title: "Main", rowId: `main`, description: `💾Main Menu`},
+                {title: "Database", rowId: `database`, description: `📁Database Menu`},
+                {title: "Anonymous", rowId: `anonymous`, description: `🎭Anonymous Menu`},
+                {title: "Islamic", rowId: `islam`, description: `🕌Islamic Menu`},
+                {title: "Voice", rowId: `voice`, description: `🎶Voice Menu`},
+                {title: "Owner", rowId: `owner`, description: `🎟Owner Menu`}
                 ]
                 },
                 ]
                 zens.sendListMsg(m.chat, kukiw, nyoutube, `*Hello Kak ${pushname}*!`, `Pilih Menu`, sections, m, {quoted: fkontak})
             }
             break
-            case 'group': {
+            case 'grup': {
 goup = `┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
@@ -3391,21 +3391,21 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
                 anu = `*${ucapanWaktu}*\n*kak @${me.split('@')[0]}*\n*Powered*  : @${ini_mark.split('@')[0]}\n*Creator* : @${ownernya.split('@')[0]}
 ┌──⭓ *Menu*
 │
-│⭔ Group Menu        = ${prefix}group
-│⭔ Webzone            = ${prefix}webzone
+│⭔ Group Menu         = ${prefix}group
+│⭔ Webzone              = ${prefix}webzone
 │⭔ Downloader Menu = ${prefix}download
-│⭔ Search Menu      = ${prefix}search
+│⭔ Search Menu        = ${prefix}search
 │⭔ Random Menu      = ${prefix}random
-│⭔ TextPro Menu      = ${prefix}textpro
+│⭔ TextPro Menu     n = ${prefix}textpro
 │⭔ PhotoOxy Menu    = ${prefix}photo
-│⭔ EPhoto Menu       = ${prefix}ephoto
-│⭔ Fun Menu           = ${prefix}fun
-│⭔ Primbon Menu    = ${prefix}primbon
-│⭔ Convert Menu     = ${prefix}convert
+│⭔ EPhoto Menu        = ${prefix}ephoto
+│⭔ Fun Menu             = ${prefix}fun
+│⭔ Primbon Menu     = ${prefix}primbon
+│⭔ Convert Menu      = ${prefix}convert
 │⭔ Main Menu         = ${prefix}main
-│⭔ Anonymous Menu  = ${prefix}anonymous
-│⭔ Islamic Menu      = ${prefix}islam
-│⭔ Voice Changer     = ${prefix}voice
+│⭔ Anonymous Menu = ${prefix}anonymous
+│⭔ Islamic Menu       = ${prefix}islam
+│⭔ Voice Changer      = ${prefix}voice
 │
 └───────𖦹Ꜥꜥ
 
