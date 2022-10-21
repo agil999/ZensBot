@@ -27,7 +27,6 @@ const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
 const nyoutube = ('®  Itzxyw')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
-const ${prefix} =  `π`
 
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
@@ -3022,7 +3021,6 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             await zens.sendButtonText(m.chat, buttons, goup, nyoutube, m, {quoted: fkontak})
             }
             break
-			
 case 'virtex': {
 tex = `༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒
 
@@ -3896,7 +3894,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             await zens.sendButtonText(m.chat, buttons, vice, nyoutube, m, {quoted: fkontak})
             }
             break
-            case 'infowner': {
+            case 'infoowner': {
 oner = `┌──⭓ *Owner Menu*
 │
 │⭔ ${prefix}react [emoji]
