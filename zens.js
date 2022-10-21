@@ -2927,6 +2927,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ *Owner* : @${ownernya.split('@')[0]}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
 ├ *Prefix* :「 MULTI-PREFIX 」
+├ *Bot Telah Online Selama*\n*${runtime(process.uptime())}*
 ╰──❏
 
 ╭──❏「 𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄 」❏
@@ -2954,6 +2955,7 @@ break
 ├ *Nama Bot* : ${pushname}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
 ├ *Prefix* :「 MULTI-PREFIX 」
+├ *Bot Telah Online Selama*\n*${runtime(process.uptime())}*
 ╰──
 
 ╭──❏「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 」❏
