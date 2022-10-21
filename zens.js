@@ -66,7 +66,7 @@ module.exports = zens = async (zens, m, chatUpdate, store) => {
     try {
         var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
         var budy = (typeof m.text == 'string' ? m.text : '')
-        var prefix = prefa ? /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.test(body) ? body.match(/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0] : "" : prefa ?? global.prefix
+        var prefix = prefa ? /^[π]/gi.test(body) ? body.match(/^[π]/gi)[0] : "" : prefa ?? global.prefix
         const isCmd = body.startsWith(prefix)
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
@@ -2926,8 +2926,8 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ *Powered* : @${ini_mark.split('@')[0]}
 ├ *Owner* : @${ownernya.split('@')[0]}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
-├ *Prefix* :「 MULTI-PREFIX 」
-├ *Bot Telah Online Selama*\n*${runtime(process.uptime())}*
+├ *Prefix* :「 π 」
+├ *Online = *\n*${runtime(process.uptime())}*
 ╰──❏
 
 ╭──❏「 𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄 」❏
@@ -2954,8 +2954,8 @@ break
 ╭──❏「 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 」❏
 ├ *Nama Bot* : ${pushname}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
-├ *Prefix* :「 MULTI-PREFIX 」
-├ *Bot Telah Online Selama*\n*${runtime(process.uptime())}*
+├ *Prefix* :「 π 」
+├ *Online =*\n*${runtime(process.uptime())}*
 ╰──
 
 ╭──❏「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 」❏
