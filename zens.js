@@ -3019,8 +3019,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             await zens.sendButtonText(m.chat, buttons, goup, nyoutube, m, {quoted: fkontak})
             }
             break
-			
-	case 'virtex': {
+case 'virtex': {
 tex = `┌──⭓ *Webzone Menu*
 │
 │⭔ ${prefix}playstore
@@ -3037,8 +3036,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             await zens.sendButtonText(m.chat, buttons, tex, nyoutube, m, {quoted: fkontak})
             }
             break
-			
- 
+case 'webzone': {
 wbzone = `┌──⭓ *Webzone Menu*
 │
 │⭔ ${prefix}playstore
@@ -3054,8 +3052,8 @@ wbzone = `┌──⭓ *Webzone Menu*
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, wbzone, nyoutube, m, {quoted: fkontak})
             }
-            break
-            case 'download': {
+	    break
+	    case 'download': {
 dwnloader = `┌──⭓ *Downloader Menu*
 │
 │⭔ ${prefix}tiktoknowm [url]
