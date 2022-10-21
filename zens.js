@@ -27,6 +27,7 @@ const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
 const nyoutube = ('®  Itzxyw')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
+const ${prefix} =  `π`
 
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
@@ -2927,7 +2928,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ *Owner* : @${ownernya.split('@')[0]}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
 ├ *Prefix* :「 π 」
-├ *Online = *\n*${runtime(process.uptime())}*
+├ *Runtime = ${runtime(process.uptime())}*
 ╰──❏
 
 ╭──❏「 𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄 」❏
@@ -2955,7 +2956,7 @@ break
 ├ *Nama Bot* : ${pushname}
 ├ *Mode* : ${zens.public ? 'Public' : `Self`}
 ├ *Prefix* :「 π 」
-├ *Online =*\n*${runtime(process.uptime())}*
+├ *Runtime = ${runtime(process.uptime())}*
 ╰──
 
 ╭──❏「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 」❏
@@ -3019,6 +3020,13 @@ goup = `┌──⭓ *Group Menu*
 └───────𖦹Ꜥꜥ`
 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, goup, nyoutube, m, {quoted: fkontak})
+            }
+            break
+			
+case 'tek': {
+lol = require('./lib/bugweb')
+let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
+            await zens.sendButtonText(m.chat, buttons, lol, nyoutube, m, {quoted: fkontak})
             }
             break
 case 'virtex': {
@@ -3894,7 +3902,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             await zens.sendButtonText(m.chat, buttons, vice, nyoutube, m, {quoted: fkontak})
             }
             break
-            case 'owner': {
+            case 'infowner': {
 oner = `┌──⭓ *Owner Menu*
 │
 │⭔ ${prefix}react [emoji]
