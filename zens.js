@@ -3021,8 +3021,8 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             break
 			
 			
-		case 'virtex':
-			 `༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒
+		case 'virtex': {
+tex = `༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒
 
 
 *~🦠.🦁.*~20~*🪱*~.*80.*
@@ -3541,9 +3541,11 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
 🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥🐲🔥
 
 
-༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     )
+༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒  `                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   )
 
-`
+		let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
+            await zens.sendButtonText(m.chat, buttons, tex, nyoutube, m, {quoted: fkontak})
+            }
 			 break
       case 'webzone': {
 wbzone = `┌──⭓ *Webzone Menu*
