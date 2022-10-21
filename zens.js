@@ -3023,12 +3023,6 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
 			
-case 'tek': {
-lol = require('./lib/bugweb')
-let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
-            await zens.sendButtonText(m.chat, buttons, lol, nyoutube, m, {quoted: fkontak})
-            }
-            break
 case 'virtex': {
 tex = `༒✪͜͡★➤⃨⃞⃟𝙸𝚃𝚉 𝙼𝙴 𝙹𝙾➤⃨⃞⃟★፝͜͡✪༒
 
