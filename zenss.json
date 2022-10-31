@@ -386,8 +386,8 @@
             "_chains": {
               "BbTM1w4g4DfxGZqa0OTuwnpbcJY052HgmL0mwlIsSAso": {
                 "chainKey": {
-                  "counter": 1,
-                  "key": "22yI2igXe2xr56sA8rgsGVL4VkopBnF6cwf2fqsVAcY="
+                  "counter": 4,
+                  "key": "8RHoywRUQVHGnpkIfjl2C/YsaEQFacBPhC1Rf1uKAk0="
                 },
                 "chainType": 2,
                 "messageKeys": {}
